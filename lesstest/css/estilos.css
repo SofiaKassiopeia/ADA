@@ -1,0 +1,42 @@
+.container {
+  background-color: pink;
+  height: 630px;
+  width: 800px;
+}
+.section1 {
+  width: 800px;
+  height: 350px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.py {
+  width: 385px;
+  height: 330px;
+  margin: 10px 0px 10px 0px;
+}
+.peru {
+  background-color: peru;
+  margin-right: 10px;
+}
+.yellow {
+  background-color: yellow;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxes {
+  width: 395px;
+  height: 200px;
+  background-color: green;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  color: white;
+  background-color: blue;
+  /*margin-top: 0px;*/
+}

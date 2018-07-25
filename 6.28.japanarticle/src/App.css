@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body
+{background-image: url("universe.jpg");}
+h1{font-family: arial; size: 3em; color: white;}
+h2{font-family: arial;font-size: 0.9em; color: white;}
+p{font-family: arial; color: white;}  
+h3{font-family: arial; color: grey; font-size: 0.9em}
+h4{font-family: arial; color: pink; font-size: 1.4em; background: black}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+/*div{border-style: dotted; color: red;}*/

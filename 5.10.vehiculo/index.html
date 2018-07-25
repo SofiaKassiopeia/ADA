@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de Infracciones</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container">
+  <header>
+      <p class="hover">HOME     </p>   <p class="hover">      |</p>
+     <p class="hover">ABOUT      </p>   <p class="hover">      |</p>
+    <p class="hover">EVENTS     </p>   <p class="hover">        |</p>
+   <p class="hover">SUPPORT      </p>   <p class="hover">        |</p>
+  </header>
+    <section>
+     <h1>Consulta Online de Infracciones</h1>
+       <h2>Todos cometemos errores! Quedate tranqui, podes chequearlos</h2>
+       <br>
+       <p>Accedé a información sobre infracciones de tránsito pendientes de pago, en la Ciudad de Buenos 
+     	  Aires.  
+       </p>
+       <div class="btn">
+       <div class="button"><p>Por patente</p></div>
+       <div class="button"><p>Por documento</p></div>
+       </div>
+          <p>Coloca aquí tu numero de patente</p>
+          <input id="patente" type="text" name="patente" placeholder="numero">
+        <br>
+          <p>Modelo de Vehículo</p>
+          <input id="modelo" type="text" name="modelo" placeholder="modelo">
+        <br>
+          <p>Color del Vehículo</p>
+          <input id="color" type="text" name="color" placeholder="color">
+        <br>
+        <p>Marca del Vehículo</p>
+          <input id="marca" type="text" name="marca" placeholder="marca">
+        <br>
+         <div id="MontoEjes">
+          <p>Monto de ejes</p>
+          <input type="text" name="MontoEjes" placeholder="monto de ejes">
+         </div>
+        <br>
+        <div id="CantPuerta">
+          <p>cantidad de puertas</p>
+          <input type="text" name="cantPuerta" placeholder="cantidad de puertas">
+         </div>
+        <br>
+        <div id="tara">
+          <p>tara</p>
+          <input type="text" name="tara" placeholder="tara">
+         </div>
+        <br>
+          <p>Seleccione Tipo de Vehículo</p>
+          <select id="tipo">
+            <option value="AUTO">Auto</option>
+            <option value="CAMION">Camión</option>
+          </select>
+        <br>
+          <div class="button" id="cargar" type="Submit" value="Consultar"><p>Consultar</p></div>
+     </section>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/camion.js"></script>
+    <script type="text/javascript" src="js/auto.js"></script>
+</body>
+</html>
+

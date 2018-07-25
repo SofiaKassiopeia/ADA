@@ -1,0 +1,37 @@
+body
+ {background-image: url("leafo.jpeg");
+  background-repeat: repeat-x;
+  background-color: /*#F6F6F6*/;
+}
+
+.container{margin: 0}
+
+header{position: inline-block;
+       background-color: transparent;
+       height: 80px;
+       width: 100%;
+       margin: 0;
+       border: solid; border-top-color: black;
+       border-bottom-color: black; border-right-color: transparent;
+       border-left-color: transparent;
+}
+
+.logo{
+      width: 10%;
+      height: auto;
+      padding: 5px;
+      float: right;
+     }
+
+.links{
+	   font-family: arial;
+	   font-size: 20px;
+	   color: black;
+	   background-color: #CCFF66;
+	   border: solid; color: black; /*border-radius: 20%;*/
+	   float: left;
+	   border-width: 1px;
+	   margin: 20px 20px 20px 20px;
+	   padding: 5px 5px 5px 5px;
+
+

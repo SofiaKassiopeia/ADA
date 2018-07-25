@@ -1,0 +1,30 @@
+#box{
+	width: 1000px;
+	height: 1000px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: 50px;
+	padding: 30px;
+}
+
+form{
+	margin-bottom: 10px;
+}
+
+#title2{
+	   font-size: 25px;
+}
+
+#fisico{
+	display: inline-block;
+}
+
+#button{
+	width:500px;
+	height: 100px;
+}
+
+.fisico{
+	width: 40px;
+}

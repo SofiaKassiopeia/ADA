@@ -1,0 +1,46 @@
+.container{
+	width: 800px;
+	height: 600px;
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color: lightgreen;
+	margin-left: 300px;
+}
+
+.top{
+	width: 760px;
+   height: 170px;
+   margin: 20px;
+   background-color: black;
+}
+
+.middle{
+  width: 740;
+  height: 170px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}                                       
+
+.middles{
+  height: 100%;
+  width: 270px;
+  background-color: green;
+}
+
+.bottom{
+  width: 720;
+  height: 170px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottoms{
+	height: 100%;
+   width: 190px;
+   background-color: red;
+}

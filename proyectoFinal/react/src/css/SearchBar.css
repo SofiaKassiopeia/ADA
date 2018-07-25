@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+}
+
+#input{
+  width: 200px;
+  height: 36px;
+  padding: 0px;
+  font-size: 20px;
+  float: right;
+}
+
+.form{
+  height: 40px;
+  width: 240px;
+  margin: 0;
+  display: flex;
+  justify-content: top;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.icon2{
+  height: 32px;
+  padding: 5px;
+  
+}
+
+
+.container-search{
+  background-color: rgb(38, 153, 96);
+  width: 100%;
+  height: 150px;
+  color: whitesmoke;
+  padding-left: 50px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.float{
+ width: 800px;
+}
+
+
+
+.icon{
+  height: 50px;
+}

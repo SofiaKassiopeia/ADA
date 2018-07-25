@@ -1,0 +1,21 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+  <body>
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:3000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+      <div id="container"> 
+        <input type="file" name="sampleFile" />
+        <input type='submit' value='Upload!' />
+        <input type='textarea' name="comentario" />
+        <input type='textarea' name="comentario2" /> 
+        <div id="feed"></div>
+      </div>
+     </form>
+    <script src="index.js"></script>     
+  </body>
+</html>

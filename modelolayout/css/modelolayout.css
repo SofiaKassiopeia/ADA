@@ -1,0 +1,49 @@
+*{box-sizing: border-box; margin: 0}
+
+.container {
+	background-color: white;
+	width:70%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1, .size, .box1, .box2, footer {background-color: grey; 
+	                             margin-top: 9px; 
+	                             margin-right: 9px; 
+	                             margin-left: 9px; 
+	                             margin-bottom: 9px}
+
+h1{width: 97%;
+	height:4em;}
+
+.galeria{
+	height: :300px;
+	width:100%;
+}
+.size {width: 201px; 
+		height: 201px;
+		display: inline-block;
+	}
+
+
+.box1{
+	  width: 25em;
+	  height: 16em;
+	  float: left;
+	  margin: 5px 20px 5px 10px
+}
+
+.box2{
+	 width: 25em;
+	 height: 16em;
+	 float: right;
+	 margin: 5px 20px 5px 10px
+
+}
+
+
+footer{width: 54.4em;
+       height: 4em;
+       clear: left;
+       margin-top: 5px
+}

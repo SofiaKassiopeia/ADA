@@ -1,0 +1,45 @@
+Objetivo: crear la API utilizando Express, para una aplicación que emule un proceso de chat.
+
+Generar las URLs necesarias para cada módulo (routes) según correspoda.
+- Determinar los métodos que correspondan (GET,POST)
+- Definir el formato de respuesta JSON para cada caso.
+- Determinar los controladores y/o servicios necesarios para generar los objetos indicados. 
+
+¿Como realizaría el renderizado de las vistas? 
+- ¿Si utiliza React como realizaría el routeo?
+- Diagramar el proceso de acceso (logeo)
+
+esos son tus amigos
+conectarse
+
+___________________________________________________________________________________________________
+
+-fetch()   
+         }→    promise: pending, resolved, reflected 
+-axios  
+
+-then → ok
+-catch → error  llamadas asincronicas
+                promise all (array)
+                                ↓
+                                call 1 call 2
+                                api 1 api 2 api 3
+                                && le pega a las apis una api no depende de la otra
+                    
+fetch api 1
+           id
+            ↓
+then→→fetch( )
+ ↓ ↑←←←then
+ ↓
+ fetch
+ then
+
+
+producto → categoria id → categoria
+:___________________:   :__________:
+        api 1               api 2
+___________________________________________________________________________________________________
+
+upward arrow: alt gr + shift + u
+←↓→↑

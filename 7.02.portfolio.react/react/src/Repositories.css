@@ -1,0 +1,38 @@
+.container{
+    position: relative;
+}
+
+.num2{
+    position: absolute;
+    bottom: -128px;
+    right: 245px;
+}
+
+.boxRepositories{
+    margin: 50px;
+    padding: 30px;
+    height: 150px;
+    width: 30%;
+    box-shadow: 9px 11px 30px -2px rgba(120,107,120,0.86);
+    background-color: beige;
+}
+
+.Repositories{
+    color: rgb(38, 153, 96);
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 150px;
+}
+
+.greenTitle{
+    margin-bottom: 30px;
+    color: rgb(38, 153, 96);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.textRepo{
+    margin-bottom: 10px;
+}
+

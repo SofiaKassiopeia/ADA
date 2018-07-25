@@ -1,0 +1,13 @@
+.container{
+	width: 800px;
+	height: 600px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 20px;
+}
+
+.pics{
+	width: 200px;
+	height: auto;
+}

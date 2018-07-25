@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Memory Game</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="timer"></div>
+	</div>
+	<div class="menu">
+		<h1>Pick A Match</h1>
+		<form>
+			<label for="name">Enter your name:</label>
+			<input class="player-name" name="name" type="text">
+			<input class="start-game" type="submit" value="Start Game">
+		</form>
+	</div>
+	<div class="results">
+		<h1>You did it!</h1>
+		<p class="time"></p>
+		<h2>Fastest Times</h2>
+		<ul class="highscores">
+
+		</ul>
+	</div>
+<script src="logic.js"></script>
+</body>
+</html>

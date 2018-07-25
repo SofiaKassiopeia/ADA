@@ -1,0 +1,16 @@
+@media{
+
+}
+*{margin: 10px;}
+/*#container{margin: 5px 300px 5px 300px; position: fixed;}*/
+h1{background: black; color: white; text-align: center}
+nav ul li{display: block; background: orange; color: white; margin: 0;}
+nav{
+	text-align: right; position: fixed; top: 20%; right: 0;
+}
+.pink{background-color: pink; width: 100%; height: 250px; display: block; margin: 5px 5px 5px 5px;}
+.blue{background-color: blue; width: 100%; height: 250px; display: block; margin: 5px 5px 5px 5px;}
+.green{background-color: green; width:100%; height: 250px; display: none; margin: 5px 5px 5px 5px;}
+.yellow{width: 100%; height: 300px; background-color: yellow; margin: 5px 5px 5px 5px;}
+*{box-sizing: border-box;}
+.pic{float: left; margin: 5px 5px 5px 5px}

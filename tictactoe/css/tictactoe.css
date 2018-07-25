@@ -1,0 +1,17 @@
+.tic-box{
+  background: beige;
+  height: 200px;
+  width: 200px;
+  margin: 5px 5px 5px 5px;
+}
+.tic-box:hover{
+  background: #f5d390;
+}
+
+.color:hover{background-color: #d192ff}
+
+.row{height: 200px; 
+     width: 800px;
+}
+
+.color{background: pink;}

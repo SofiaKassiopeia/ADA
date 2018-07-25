@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(38, 153, 96);
+    width: 100%;
+    height: 200px;
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.float{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 32px;
+    margin-top: 30px;
+    float: right; 
+}
+
+.icon{
+    height: 30px;
+}

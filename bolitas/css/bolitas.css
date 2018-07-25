@@ -1,0 +1,32 @@
+.container {
+  background-color: pink;
+  width: 800px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+.bolita {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.azul {
+  background-color: blue;
+}
+.azul:hover {
+  background-color: #9999ff;
+}
+.verde {
+  background-color: green;
+}
+.verde:hover {
+  background-color: #1aff1a;
+}
+.rojo {
+  background-color: red;
+}
+.rojo:hover {
+  background-color: #ff9999;
+}

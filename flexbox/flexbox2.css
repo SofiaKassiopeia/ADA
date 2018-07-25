@@ -1,0 +1,57 @@
+body {
+	font-family: Arial;
+}
+
+.container{
+	margin: 30px;
+	width: 1200px;
+	height: 550px;
+	border-color: black;
+	border: solid 1px;
+	display: inline-block;
+	display: flex; justify-content: flex-end;
+	                  align-content: flex-start;
+}
+
+.caja1{
+	   width: 300px;
+	   height: 100%;
+	   border-right: black;
+	   border-bottom: transparent;
+	   border-top: transparent;
+	   border-left: transparent;
+	   border: solid 1px;
+}
+
+.select{width: 200px}
+
+.size{width: 150px;
+}
+
+.section{margin: 20px;}
+
+.caja2{
+	   width: 898px;
+	   height: 100%;
+	   border-right: black;
+	   border-bottom: transparent;
+	   border-top: transparent;
+	   border-left: transparent;
+	   border: solid 1px;
+}
+
+.producto{
+          height: 200px;
+          width: 150px;
+          position: flex; justify-content: space-around;
+          border-right: black;
+	      border-bottom: transparent;
+	      border-top: transparent;
+	      border-left: transparent;
+	      border: solid 1px;
+}
+
+.row1, .row2{
+	         display: flex; flex-direction: row;
+	                        justify-content: space-around;
+	         margin: 50px;

@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+	color: #ffeaa0;
+	background: rgb(243, 206, 247);
+}
+
+#container, .extra {
+	margin: 0px auto;
+	width: 500px;
+}
+
+
+.menu {
+	height: 370px;
+	width: 350px;
+	margin-top: -160px;
+	margin-left: -175px;
+	position: absolute;
+	padding: 10px;
+	left: 50%;
+	top: 45%;
+	text-align: center;
+	border: 5px solid #ffeaa0;
+	border-radius: 20px;
+	box-shadow: 0 0 25px 5px #000;
+	background: rgb(31, 52, 238);
+	vertical-align: text-bottom;
+
+}
+
+input, label {
+	margin: 10px;
+	width: 75%;
+}
+input[type=submit] {
+	font-size: 16px;
+	width: 50%;
+	border: 3px solid #ffeaa0;
+	border-radius: 10px;
+	padding: 10px;
+	background: rgb(31, 52, 238);
+	color: #ffeaa0;
+	outline: 0;
+}
+input[type=submit]:hover {
+	cursor: pointer;
+	box-shadow: 0 0 15px #fff;
+}
+input[type=text] {
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 10px;
+	outline: 0;
+	text-align: center;
+}
+
+#cards div{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border: 4px solid rgb(42, 78, 238);
+	cursor: pointer;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background-image: url("img/qmark.png");
+}
+#cards div img {
+	display: none;
+}
+#buttons {
+	text-align: center;
+	margin: 20px;
+    display: block;
+	height: 100px;
+	margin-bottom: 50px;
+	margin-left: 30%;
+    
+}
+.button {
+	text-transform: uppercase;
+	background: rgb(31, 52, 238);
+	border: 5px solid #ffeaa0;
+	border-radius: 20px;
+	box-shadow: 0 0 25px 5px #000;
+	width: 170px;
+	padding: 5px 10px;
+	margin-bottom: 50px;
+	border-radius: 4px;
+	cursor: pointer;
+}

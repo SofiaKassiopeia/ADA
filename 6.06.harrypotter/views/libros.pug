@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title1
+  p Welcome to la mejor librería de la historia de Hogwarts...
+  img(src='/images/googles.png')
+
+
+  h2=title2
+  each val in listaDeBooks
+   div.val
+    h1=val.titulo
+    img(src=val.src)
+    p=val.isbn
+    a(href="/libros/isbn/"+val.isbn) Buch
+    button(data-id='val.isbn') Borrar
+    a(href="/libros/delete/:isbn"+val.isbn) Delete
+    button(data-id='val.isbn') Agregar Libro
+    
+    
+

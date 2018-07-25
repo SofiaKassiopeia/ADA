@@ -1,0 +1,162 @@
+.container{
+  width: 1500px;
+  height: 900px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: lightgreen;
+}
+
+header{
+  width: 1500px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: green; 
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+  margin-right: 300px;
+  margin-left: 100px;
+  border-radius: 50%;
+ }
+
+ .link{
+  width: 1500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ .links{
+  width:200px;
+  height:70px;
+  text-decoration: none;
+  font-size: 30px; 
+}
+
+ a.links:hover {
+  background-color: lightblue;
+ }
+
+
+ }
+ .cuadrado{
+  width: auto;
+  height: 120px; 
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+ }
+
+.title{
+     font-size: 40px;
+     width: 500px;
+     font-family: ariel;
+     font-style: bold;
+}
+
+ .icons{
+  width: 36px;
+  height: 36px;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+
+ section{
+  height: 375px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  display: flex;
+ }
+ .Slider{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.imgSlider{
+  width: auto;
+  height: 340px;
+}
+.boxContainer{
+  width: 1500px ;
+  height: 205px;
+  margin: ;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.boxes{
+  width: 470px;
+  height:175px;
+  background-color: beige;
+  padding: 5px;
+  
+
+}
+.imgbox{
+  width: 150px ;
+  height:150px ;
+  margin:5px,5px,5px,5px ;
+  float: left;
+}
+
+h3{
+  text-align: center;
+}
+
+footer{
+  height:65px ;
+  display: flex;
+  background-color: green;
+  border-width: 3px;
+  border-color: brown;
+
+}
+#email{
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+}
+.email{
+  size: 10px ;
+  color: black;
+}
+
+.email :hover{
+  color: #ff0066;
+}
+.email :link{
+  color: #800033;
+}
+.email :visited{
+  color: #ffe6f0;
+
+}
+.media{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 750px;
+
+}
+.end{
+  margin: 0;
+  margin-right: 5px; 
+}

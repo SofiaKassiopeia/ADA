@@ -1,0 +1,26 @@
+.caja{
+	  width: 200px;
+	  height: 200px;
+	  margin-top: 20px;
+	  font-size: 50px;
+	  text-align: center;
+}
+
+.orangebox{
+	       width: 400px;
+	       height: 400px;
+	       background: orange;
+	       position: 
+}
+
+.roja{
+	  background-color: red;
+}
+
+.azul{
+	  background-color: blue;
+}
+
+.verde{background-color: green;}
+
+.amarilla{background-color: yellow;}

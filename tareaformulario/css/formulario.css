@@ -1,0 +1,9 @@
+#fonta {font-family:Arial}
+#fontb {font-family:Courier New}
+#fontc{font-style: font-style: unset;}
+.boxed {
+  border: 1px solid black;
+  width: 430px;
+  height: 550px;
+  padding: 10px 10px 30px 30px;
+}

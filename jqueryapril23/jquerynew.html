@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquerynew</title>
+</head>
+<body>
+  <div class="container">
+  	<form id="alquiler">
+  		<div>
+  		 <label>Nombre</label>
+  		 <input type="text" name="nombre" id="nombre">
+  	     <label class="error"></label>
+       </div>
+       <div>
+  		 <label>Apellido</label>
+  		 <input type="text" name="nombre" id="apellido">
+  	     <label class="error"></label>
+       </div>
+       <div>
+  		 <label>Email</label>
+  		 <input type="text" name="nombre" id="email">
+  	     <label class="error"></label>
+       </div>
+       <div>
+       	<label>Género de peliculas</label>
+       	<input type="checkbox" name="genero" class="genero">comedia
+       	<input type="checkbox" name="genero" class="genero">terror
+       	<input type="checkbox" name="genero" class="genero">romance
+        <input type="checkbox" name="genero" class="genero">drama
+       </div>
+       <div>
+        <button id="button">alquilar</button>
+        <input type="reset" name="limpiar" value="limpiar" id="limpiar"> //borro formulario + mensajes de error
+       </div>
+  	</form>
+  	<div id="errores"></div>
+   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+   <script type="text/javascript" src="js/validar.js"></script>
+  </div>
+</body>
+</html>
+

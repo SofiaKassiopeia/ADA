@@ -1,0 +1,13 @@
+h1{background: black; color: white; text-align: center}
+*{margin: 0 auto;}
+nav ul li{display: inline-block; background: orange; color: white}
+#container{margin: 5px 300px 5px 300px;}
+.pink{background-color: peru; width: 75%; height: 250px; margin: 5px 5px 5px 5px;}
+.ancho{width: 47%; display: inline-block;}
+.blue{background-color: blue; width: 97%; height: 250px; margin: 5px 5px 5px 5px;}
+.green{background-color: green; width:20%; height: 250px; margin: 5px 5px 5px 5px;}
+.ancho2{width: 31%; display: inline-block;}
+.yellow{width: 100%; height: 300px; background-color: yellow; }
+*{box-sizing: border-box;}
+.inline{background-color: yellow; width: 97%; height: 230px; margin: 5px 5px 5px 5px;}
+.pic{float: left; margin: 5px 5px 5px 5px}

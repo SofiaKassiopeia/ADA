@@ -1,0 +1,8 @@
+body
+{background-image: url("universe.jpg");}
+h1{font-family: arial; size: 3em; color: white;}
+h2{font-family: arial;font-size: 0.9em; color: white;}
+p{font-family: arial; color: white;}  
+h3{font-family: arial; color: grey; font-size: 0.9em}
+h4{font-family: arial; color: pink; font-size: 1.4em; background: black}
+/*div{border-style: dotted; color: red;}*/

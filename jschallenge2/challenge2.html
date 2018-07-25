@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>challengeIIjs</title>
+	<link rel="stylesheet" type="text/css" href="css/challenge2.css">
+</head>
+<body>
+  <div id="container">
+  	<h1>Untitled Page</h1>
+  	<div id="box">
+  	<p id="title2">Formulario de inscripción</p>
+  	 <form>
+  	   <label>Nombre</label>
+  	   <input type="text" name="text" id="nombre" class="obligatorio">  *
+  	   <label class="error obLabel"></label>
+     </form>
+      <form>
+  	   <label>Apellido</label>
+  	   <input type="text" name="text" id="apellido">  *
+     </form>
+      <form>
+  	   <label>Nacionalidad</label>
+  	   <select>
+        <option value="pais">Alemania</option>
+        <option value="pais">Argentina</option>
+        <option value="pais">España</option>
+        <option value="pais">chile</option>
+       </select>  *
+     </form>
+     <form>
+  	   <label>Fecha de nacimiento</label>
+  	   <input type="text" name="text" id="fecha">  *
+     </form>
+     <form>
+  	   <label>Tipo de documento</label>
+  	   <select class="fisico">
+         <option value="tipo">L.E / DNI</option>
+         <option value="tipo">CARNET EXT.</option>
+         <option value="tipo">RUC</option>
+         <option value="tipo">PASAPORTE</option>
+       </select>  
+  	   <label>Número de ducumento</label>
+  	   <input type="text" name="text" id="numeroid" class="fisico">  *
+     </form>
+     <form>
+  	   <label>Calle</label>
+  	   <input type="text" name="text" id="calle">  *
+     </form>
+     <form>
+  	   <label>Número</label>
+  	   <input type="text" name="text" id="numero" class="fisico">  
+  	   <label>Piso</label>
+  	   <input type="text" name="text" id="Piso" class="fisico">  
+  	   <label>Depto</label>
+  	   <input type="text" name="text" id="depto" class="fisico">  
+     </form>
+     <form>
+  	   <label>Provincia</label>
+  	   <select >
+         <option value="provincia">CABA</option>
+         <option value="provincia">Córdoba</option>
+         <option value="provincia">Mar de plata</option>
+         <option value="provincia">Otra</option>
+       </select>  
+     </form>
+     <form>
+  	   <label id="city">Ciudad</label>
+  	   <select>
+         <option value="Ciudad">1</option>
+         <option value="Ciudad">2</option>
+         <option value="Ciudad">3</option>
+         <option value="Ciudad">4</option>
+       </select>  
+     </form>
+     <div>
+       <label>genero *</label>
+       <INPUT type="radio" name="option"> feminino
+       <INPUT type="radio" name="option"> masculino
+    </div>
+    <div>
+      <ul style="list-style-type: none;">
+      <label>deportes</label><li class="deportes"><input type="checkbox" name="sport" value="1">Check box</li>
+      <li class="deportes"><input type="checkbox" name="sport" value="2">Check box</li>
+      <li class="deportes"><input type="checkbox" name="sport" value="3">Check box</li>
+      </ul>
+    </div>
+    <div id=fisico>
+       <label>altura</label>
+       <input type="text" name="altura" class="fisico">
+       <label>peso</label>
+       <input type="text" name="peso" class="fisico">
+  	</div>
+    <div id=contactar>
+      <p><label>Email</label>
+      <p><input type="text" name="email" id="email">
+      <p><label>Teléfono *</label>
+      <p><input type="text" name="telefono">
+    </div>
+    <div>
+      <p><label>Observadones</label>
+      <p><input type="text" name="email" id="button">
+    </div>
+    <p><INPUT type="Submit" VALUE="Enviar">
+   </div>
+  </div> 
+  <script type="text/javascript" src="js/challenge2.js"></script>
+</body>
+</html>
